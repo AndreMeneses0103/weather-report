@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    background-image: url(https://www.visitbrasil.com/wp-content/uploads/2021/08/Sao-Paulo-SP-Visit-Brasil-7-1-1024x683.jpg);
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+html{
+    height: 100%;
+}
+
+.title{
+    padding: 40px;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+}
+
+.all_cards{
+    top: 50%;
+    transform: translate(0, 40%);
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.card{
+    background-color: black;
+    width: 300px;
+    height: 20rem;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.658);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.8px);
+    -webkit-backdrop-filter: blur(4.8px);
+    border: 1px solid rgba(255, 255, 255, 0.32);
+    display: block;
+    flex-direction: column;
+    color: #fff;
+    font-family:'Righteous', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+#icon1, #icon2, #icon3{
+    width: 300px;
+    height: 300px;
+    margin-top: -60px;
+    margin-bottom: -70px;
+}
